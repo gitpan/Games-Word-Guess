@@ -1,7 +1,7 @@
 #!perl
 
-our $DATE = '2014-08-08'; # DATE
-our $VERSION = '0.05'; # VERSION
+our $DATE = '2015-01-03'; # DATE
+our $VERSION = '0.06'; # VERSION
 
 use Games::Word::Guess;
 use Getopt::Long qw(:config bundling auto_version auto_help);
@@ -39,13 +39,13 @@ wordguess - Word guess game
 
 =head1 VERSION
 
-This document describes version 0.05 of wordguess (from Perl distribution Games-Word-Guess), released on 2014-08-08.
+This document describes version 0.06 of wordguess (from Perl distribution Games-Word-Guess), released on 2015-01-03.
 
 =head1 SYNOPSIS
 
 Run game:
 
- % wordguess ; # defaults: word length 5, 5 guesses/word, 10 words, wordlist SGB
+ % wordguess ; # defaults: word length 5, 5 guesses/word, 10 words, wordlist Enable
 
 Customize some options (wordlist is Games::Word::Wordlist::* module):
 
@@ -131,25 +131,13 @@ have a 6-character word, the default is 6).
 
 Select wordlist. Wordlists are searched in C<Games::Word::Wordlist::*> modules.
 Two default wordlist are used: KBBI (if running under Indonesian locale), or
-SGB.
+Enable.
 
 Only words containing the lowercase latin letter a-z are used.
 
 =head2 --num-words=i, -w (default: 10)
 
 Number of words per game.
-
-=head1 TODO
-
-=over
-
-=item * Write statistics file
-
-=item * Colors
-
-=item * Add timeout for each guess
-
-=back
 
 =head1 HISTORY
 
@@ -174,11 +162,11 @@ feature.
 
 =head1 AUTHOR
 
-Steven Haryanto <stevenharyanto@gmail.com>
+perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Steven Haryanto.
+This software is copyright (c) 2015 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

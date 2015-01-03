@@ -1,7 +1,7 @@
 package Games::Word::Guess;
 
-our $DATE = '2014-08-08'; # DATE
-our $VERSION = '0.05'; # VERSION
+our $DATE = '2015-01-03'; # DATE
+our $VERSION = '0.06'; # VERSION
 
 use 5.010001;
 use strict;
@@ -175,7 +175,7 @@ Games::Word::Guess - Word guess game
 
 =head1 VERSION
 
-This document describes version 0.05 of Games::Word::Guess (from Perl distribution Games-Word-Guess), released on 2014-08-08.
+This document describes version 0.06 of Games::Word::Guess (from Perl distribution Games-Word-Guess), released on 2015-01-03.
 
 =head1 SYNOPSIS
 
@@ -208,11 +208,11 @@ feature.
 
 =head1 AUTHOR
 
-Steven Haryanto <stevenharyanto@gmail.com>
+perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Steven Haryanto.
+This software is copyright (c) 2015 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
